@@ -1,4 +1,3 @@
-:q!
 # Docker-Postgresql-9.6-Phppgadmin
 A postgresql 9.6 server with phppgadmin
 
@@ -16,13 +15,13 @@ You can now access the phppgadmin interface from http://127.0.0.1:12345/
 The default password for user 'postgres' is 'postgres'.
 
 Postgresql:
- - host: `postgresql-phppgadmin`
+ - host: `localhost`
  - port: `5432`
  - username: `postgres`
  - password: `postgres`
  
 Phppgadmin:
- - host: `postgresql-phppgadmin`
+ - host: `localhost`
  - port: `12345`
  - username: `postgres`
  - password: `postgres`
