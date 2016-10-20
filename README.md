@@ -12,6 +12,7 @@ Then a container :
 docker run -d -p 12345:80 -p 5432:5432 --name=postgresql postgresql-phppgadmin
 ```
 You can now access the phppgadmin interface from http://127.0.0.1:12345/
+
 The default password for user 'postgres' is 'postgres'.
 
 Postgresql:
